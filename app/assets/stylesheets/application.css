@@ -13,3 +13,76 @@
  *= require_tree .
  *= require_self
  */
+
+ .letter {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 40px;
+ }
+
+ .letter h1 {
+  background-color: rgba(255, 0, 0, 0.386);
+  padding: 20px 30px;
+  border: 2px solid grey;
+  border-radius: 10px;
+ }
+
+ .title{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border: solid 2px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+ }
+
+ body {
+  background-color: rgba(190, 190, 190, 0.416);
+ }
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin: 200px 100px;
+}
+
+.message {
+  width: 1000px;
+  padding : 0px 10px;
+  border-left: 10px solid rgba(30, 14, 249, 0.434);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  width: 400px;
+  padding : 0px 10px;
+  border-left: 10px solid rgba(255, 0, 0, 0.434);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-card {
+  width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#new {
+  text-decoration: none;
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+#new:hover {
+  opacity: 1;
+}

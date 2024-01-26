@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="message">
+    <h1><%= @message %></h1>
+  </div>
+  <div class="score">
+    <h1>Score = <%= @score %></h1>
+    <%= hidden_field_tag :score, @score %>
+  </div>
+    <div class="score">
+    <h1>Total Score = <%= @total_score %></h1>
+  </div>
+  <div class="link-card">
+    <%= link_to "Play again!", new_path, id: "new" %>
+  </div>
+</div>
